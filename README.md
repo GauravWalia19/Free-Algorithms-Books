@@ -1,6 +1,10 @@
 # Free Algorithm Books
 
-This is my personal collection of free algorithm books, please feel free to share and learn.
+This is a curated collection of free algorithm related eBooks available on the Internet. Please feel free to share and learn.
+
+If you want to contribute to this list, send a pull request. All contributors will be recognized and appreciated.
+
+**Disclaimer**: The contributor(s) cannot be held responsible for any misuse of the data.
 
 ## List of Books
 
@@ -15,5 +19,6 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Learning F# Functional Data Structures and Algorithms [[Download]](/book/Learning%20F%23%20Functional%20Data%20Structures%20and%20Algorithms.pdf)
 * Learning JavaScript Data Structures and Algorithms - Second Edition [[Download]](/book/Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20-%20Second%20Edition.pdf)
 * The Algorithm Design Manual - Second Edition [[Download]](/book/The%20Algorithm%20Design%20Manual%20-%20Second%20Edition.pdf)
+* The Master Algorithm - Pedro Domingos [[Download]](/book/The%20Master%20Algorithm%20-%20Pedro%20Domingos.epub)
 * 算法心得 - 高效算法的奥秘 - 中文第2版 [[Download]](/book/%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97%20-%20%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E7%9A%84%E5%A5%A5%E7%A7%98%20-%20%E4%B8%AD%E6%96%87%E7%AC%AC2%E7%89%88.pdf)
 
