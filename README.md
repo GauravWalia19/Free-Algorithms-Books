@@ -10,10 +10,12 @@ If you want to contribute to this list, send a pull request. All contributors wi
 
 You can find all the books listed below in [**book**](/book) folder of this repo:
 
+* A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills [[Download]](/book/A%20Common-Sense%20Guide%20to%20Data%20Structures%20and%20Algorithms%20-%20Level%20Up%20Your%20Core%20Programming%20Skills.epub)
 * Algorithms in a Nutshell [[Download]](/book/Algorithms%20in%20a%20Nutshell.epub)
 * Algorithms to Live By - Brian Christian [[Download]](/book/Algorithms%20to%20Live%20By%20-%20Brian%20Christian.epub)
 * Algorithms Unlocked - Thomas H. Cormen [[Download]](/book/Algorithms%20Unlocked%20-%20Thomas%20H.%20Cormen.epub)
 * Dynamic Programming - A Computational Tool [[Download]](/book/Dynamic%20Programming%20-%20A%20Computational%20Tool.pdf)
+* Everyday Data Structures - A practical guide to learning data structures simply and easily [[Download]](/book/Everyday%20Data%20Structures%20-%20A%20practical%20guide%20to%20learning%20data%20structures%20simply%20and%20easily.epub)
 * Grokking Algorithms - An illustrated guide for programmers and other curious people [[Download]](/book/Grokking%20Algorithms%20-%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.pdf)
 * Hacker's Delight - Second Edition [[Download]](/book/Hacker%27s%20Delight%20-%20Second%20Edition.pdf)
 * Learning F# Functional Data Structures and Algorithms [[Download]](/book/Learning%20F%23%20Functional%20Data%20Structures%20and%20Algorithms.pdf)
