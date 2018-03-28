@@ -19,6 +19,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Everyday Data Structures - A practical guide to learning data structures simply and easily [[Download]](/book/Everyday%20Data%20Structures%20-%20A%20practical%20guide%20to%20learning%20data%20structures%20simply%20and%20easily.epub)
 * Grokking Algorithms - An illustrated guide for programmers and other curious people [[Download]](/book/Grokking%20Algorithms%20-%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.pdf)
 * Hacker's Delight - Second Edition [[Download]](/book/Hacker%27s%20Delight%20-%20Second%20Edition.pdf)
+* Introduction to Algorithms - Third Edition [[Download]](/book/Introduction%20to%20Algorithms%20-%20Third%20Edition.pdf)
 * Learning F# Functional Data Structures and Algorithms [[Download]](/book/Learning%20F%23%20Functional%20Data%20Structures%20and%20Algorithms.pdf)
 * Learning JavaScript Data Structures and Algorithms - Second Edition [[Download]](/book/Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20-%20Second%20Edition.pdf)
 * The Algorithm Design Manual - Second Edition [[Download]](/book/The%20Algorithm%20Design%20Manual%20-%20Second%20Edition.pdf)
