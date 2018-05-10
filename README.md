@@ -16,6 +16,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Algorithms Unlocked - Thomas H. Cormen [[Download]](/book/Algorithms%20Unlocked%20-%20Thomas%20H.%20Cormen.epub)
 * Data Structures & Algorithms with JavaScript [[Download]](/book/Data%20Structures%20%26%20Algorithms%20with%20JavaScript.pdf)
 * Dynamic Programming - A Computational Tool [[Download]](/book/Dynamic%20Programming%20-%20A%20Computational%20Tool.pdf)
+* Essential Algorithms - A Practical Approach to Computer Algorithms [[Download]](/book/Essential%20Algorithms%20-%20A%20Practical%20Approach%20to%20Computer%20Algorithms.epub)
 * Everyday Data Structures - A practical guide to learning data structures simply and easily [[Download]](/book/Everyday%20Data%20Structures%20-%20A%20practical%20guide%20to%20learning%20data%20structures%20simply%20and%20easily.epub)
 * Grokking Algorithms - An illustrated guide for programmers and other curious people [[Download]](/book/Grokking%20Algorithms%20-%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.pdf)
 * Hacker's Delight - Second Edition [[Download]](/book/Hacker%27s%20Delight%20-%20Second%20Edition.pdf)
