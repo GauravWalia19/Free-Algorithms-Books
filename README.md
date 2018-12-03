@@ -12,6 +12,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 
 * A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills [[Download]](/book/A%20Common-Sense%20Guide%20to%20Data%20Structures%20and%20Algorithms%20-%20Level%20Up%20Your%20Core%20Programming%20Skills.epub)
 * Algorithms in a Nutshell [[Download]](/book/Algorithms%20in%20a%20Nutshell.epub)
+* Algorithms in C [[Download]](/book/Algorithms%20in%20C.pdf)
 * Algorithms to Live By - Brian Christian [[Download]](/book/Algorithms%20to%20Live%20By%20-%20Brian%20Christian.epub)
 * Algorithms Unlocked - Thomas H. Cormen [[Download]](/book/Algorithms%20Unlocked%20-%20Thomas%20H.%20Cormen.epub)
 * Data Structures & Algorithms in Python [[Download]](/book/Data%20Structures%20%26%20Algorithms%20in%20Python.pdf)
