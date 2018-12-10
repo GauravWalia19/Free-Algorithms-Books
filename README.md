@@ -1,10 +1,10 @@
 # Free Algorithm Books
 
-This is a curated collection of free algorithm related eBooks available on the Internet. Please feel free to share and learn.
+This is a curated collection of free algorithm and datastructures related eBooks available on the Internet. Please feel free to share and learn. Please star our repository also you can clone it using
 
-If you want to contribute to this list, send a pull request. All contributors will be recognized and appreciated.
-
-**Disclaimer**: The contributor(s) cannot be held responsible for any misuse of the data.
+```bash
+git clone https://github.com/GauravWalia19/Free-Algorithms-Books.git
+```
 
 ## List of Books
 
@@ -20,6 +20,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Data Structures and Algorithms in Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20in%20Python.pdf)
 * Data Structures and Algorithms Made Easy - Data Structure and Algorithmic Puzzles [[Download]](/book/Data%20Structures%20and%20Algorithms%20Made%20Easy%20-%20Data%20Structure%20and%20Algorithmic%20Puzzles.pdf)
 * Data Structures and Algorithms with Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20with%20Python.pdf)
+* Data Structures and Algorithm Analysis in c++ (Fourth Edition) [[Download]](/book/DataStructuresAndAlgorithmAnalysisInCpp_2014.pdf)
 * Disk-Based Algorithms for Big Data [[Download]](/book/Disk-Based%20Algorithms%20for%20Big%20Data.pdf)
 * Dynamic Programming - A Computational Tool [[Download]](/book/Dynamic%20Programming%20-%20A%20Computational%20Tool.pdf)
 * Essential Algorithms - A Practical Approach to Computer Algorithms [[Download]](/book/Essential%20Algorithms%20-%20A%20Practical%20Approach%20to%20Computer%20Algorithms.epub)
@@ -38,3 +39,8 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * The Master Algorithm - Pedro Domingos [[Download]](/book/The%20Master%20Algorithm%20-%20Pedro%20Domingos.epub)
 * 算法心得 - 高效算法的奥秘 - 中文第2版 [[Download]](/book/%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97%20-%20%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E7%9A%84%E5%A5%A5%E7%A7%98%20-%20%E4%B8%AD%E6%96%87%E7%AC%AC2%E7%89%88.pdf)
 
+## CONTRIBUTING
+
+* If you want to contribute to this list, send a pull request. All contributors will be recognized and appreciated.
+
+* The contributor(s) cannot be held responsible for any misuse of the data.
