@@ -19,6 +19,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Data Structures & Algorithms with JavaScript [[Download]](/book/Data%20Structures%20%26%20Algorithms%20with%20JavaScript.pdf)
 * Data Structures and Algorithms in Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20in%20Python.pdf)
 * Data Structures and Algorithms Made Easy - Data Structure and Algorithmic Puzzles [[Download]](/book/Data%20Structures%20and%20Algorithms%20Made%20Easy%20-%20Data%20Structure%20and%20Algorithmic%20Puzzles.pdf)
+* Data Structures and Algorithms Made Easy [[Download]](/book/Algorithm+book+by+Karumanchi.pdf)
 * Data Structures and Algorithms with Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20with%20Python.pdf)
 * Data Structures and Algorithm Analysis in c++ (Fourth Edition) [[Download]](/book/DataStructuresAndAlgorithmAnalysisInCpp_2014.pdf)
 * Disk-Based Algorithms for Big Data [[Download]](/book/Disk-Based%20Algorithms%20for%20Big%20Data.pdf)
