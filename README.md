@@ -31,6 +31,7 @@ You can find all the books listed below in [**book**](/book) folder of this repo
 * Introduction to Algorithms - Third Edition [[Download]](/book/Introduction%20to%20Algorithms%20-%20Third%20Edition.pdf)
 * Learning F# Functional Data Structures and Algorithms [[Download]](/book/Learning%20F%23%20Functional%20Data%20Structures%20and%20Algorithms.pdf)
 * Learning JavaScript Data Structures and Algorithms - Second Edition [[Download]](/book/Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20-%20Second%20Edition.pdf)
+* Java 9 Data Structures and Algorithms [[download]](/book/java-9-data-structures-algorithms.pdf)
 * Mathematics and Physics for Programmers - Second Edition [[Download]](/book/Mathematics%20and%20Physics%20for%20Programmers%20-%20Second%20Edition.pdf)
 * PHP 7 Data Structures and Algorithms [[Download]](/book/PHP%207%20Data%20Structures%20and%20Algorithms.azw3)
 * Python Algorithms - Mastering Basic Algorithms in the Python Language - Second Edition [[Download]](/book/Python%20Algorithms%20-%20Mastering%20Basic%20Algorithms%20in%20the%20Python%20Language%20-%20Second%20Edition.pdf)
