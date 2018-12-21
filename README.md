@@ -41,7 +41,7 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 #### :rocket: Everyday Data Structures - A practical guide to learning data structures simply and easily
 
-* [**Download**](/src/C#/Everyday-Data-Structures-A-practical-guide-to-learning-data-structures-simply-and-easily.pdf)
+* [**Download**](/src/CSharp/Everyday-Data-Structures-A-practical-guide-to-learning-data-structures-simply-and-easily.pdf)
 * size: 1.7 MB
 
 ### C++
@@ -55,7 +55,7 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 #### :rocket: Learning F# Functional Data Structures and Algorithms
 
-* [**Download**](/src/F#/Learning-F#-Functional-Data-Structures-and-Algorithms.pdf)
+* [**Download**](/src/FSharp/Learning-F#-Functional-Data-Structures-and-Algorithms.pdf)
 * size: 3.9 MB
 
 ### JAVA
