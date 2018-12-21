@@ -1,48 +1,178 @@
 # Free Algorithm Books
 
-This is a curated collection of free algorithm and datastructures related eBooks available on the Internet. Please feel free to share and learn. Please star our repository also you can clone it using
+This is a curated collection of free algorithm and datastructures related eBooks available on the Internet. Please feel free to share and learn. Please **star our repository** also you can clone it using
 
 ```bash
 git clone https://github.com/GauravWalia19/Free-Algorithms-Books.git
 ```
 
-## List of Books
+## Books Library
 
-You can find all the books listed below in [**book**](/book) folder of this repo:
+You can find all the books listed below in **src** and its sub folders of this repo:
 
-* A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills [[Download]](/book/A%20Common-Sense%20Guide%20to%20Data%20Structures%20and%20Algorithms%20-%20Level%20Up%20Your%20Core%20Programming%20Skills.epub)
-* Algorithms in a Nutshell [[Download]](/book/Algorithms%20in%20a%20Nutshell.epub)
-* Algorithms in C [[Download]](/book/Algorithms%20in%20C.pdf)
-* Algorithms to Live By - Brian Christian [[Download]](/book/Algorithms%20to%20Live%20By%20-%20Brian%20Christian.epub)
-* Algorithms Unlocked - Thomas H. Cormen [[Download]](/book/Algorithms%20Unlocked%20-%20Thomas%20H.%20Cormen.epub)
-* Data Structures & Algorithms in Python [[Download]](/book/Data%20Structures%20%26%20Algorithms%20in%20Python.pdf)
-* Data Structures & Algorithms with JavaScript [[Download]](/book/Data%20Structures%20%26%20Algorithms%20with%20JavaScript.pdf)
-* Data Structures and Algorithms in Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20in%20Python.pdf)
-* Data Structures and Algorithms Made Easy - Data Structure and Algorithmic Puzzles [[Download]](/book/Data%20Structures%20and%20Algorithms%20Made%20Easy%20-%20Data%20Structure%20and%20Algorithmic%20Puzzles.pdf)
-* Data Structures and Algorithms Made Easy [[Download]](/book/Algorithm+book+by+Karumanchi.pdf)
-* Data Structures and Algorithms with Python [[Download]](/book/Data%20Structures%20and%20Algorithms%20with%20Python.pdf)
-* Data Structures and Algorithm Analysis in c++ (Fourth Edition) [[Download]](/book/DataStructuresAndAlgorithmAnalysisInCpp_2014.pdf)
-* Disk-Based Algorithms for Big Data [[Download]](/book/Disk-Based%20Algorithms%20for%20Big%20Data.pdf)
-* Dynamic Programming - A Computational Tool [[Download]](/book/Dynamic%20Programming%20-%20A%20Computational%20Tool.pdf)
-* Essential Algorithms - A Practical Approach to Computer Algorithms [[Download]](/book/Essential%20Algorithms%20-%20A%20Practical%20Approach%20to%20Computer%20Algorithms.epub)
-* Everyday Data Structures - A practical guide to learning data structures simply and easily [[Download]](/book/Everyday%20Data%20Structures%20-%20A%20practical%20guide%20to%20learning%20data%20structures%20simply%20and%20easily.epub)
-* Grokking Algorithms - An illustrated guide for programmers and other curious people [[Download]](/book/Grokking%20Algorithms%20-%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.pdf)
-* Hacker's Delight - Second Edition [[Download]](/book/Hacker%27s%20Delight%20-%20Second%20Edition.pdf)
-* Introduction to Algorithms - Third Edition [[Download]](/book/Introduction%20to%20Algorithms%20-%20Third%20Edition.pdf)
-* Learning F# Functional Data Structures and Algorithms [[Download]](/book/Learning%20F%23%20Functional%20Data%20Structures%20and%20Algorithms.pdf)
-* Learning JavaScript Data Structures and Algorithms - Second Edition [[Download]](/book/Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20-%20Second%20Edition.pdf)
-* Java 9 Data Structures and Algorithms [[download]](/book/java-9-data-structures-algorithms.pdf)
-* Mathematics and Physics for Programmers - Second Edition [[Download]](/book/Mathematics%20and%20Physics%20for%20Programmers%20-%20Second%20Edition.pdf)
-* PHP 7 Data Structures and Algorithms [[Download]](/book/PHP%207%20Data%20Structures%20and%20Algorithms.azw3)
-* Python Algorithms - Mastering Basic Algorithms in the Python Language - Second Edition [[Download]](/book/Python%20Algorithms%20-%20Mastering%20Basic%20Algorithms%20in%20the%20Python%20Language%20-%20Second%20Edition.pdf)
-* Sets, Logic and Maths for Computing [[Download]](/book/Sets%2C%20Logic%20and%20Maths%20for%20Computing.pdf)
-* The Algorithm Design Manual - Second Edition [[Download]](/book/The%20Algorithm%20Design%20Manual%20-%20Second%20Edition.pdf)
-* The Data Compression Book - Second Edition [[Download]](/book/The%20Data%20Compression%20Book%20-%20Second%20Edition.pdf)
-* The Master Algorithm - Pedro Domingos [[Download]](/book/The%20Master%20Algorithm%20-%20Pedro%20Domingos.epub)
-* 算法心得 - 高效算法的奥秘 - 中文第2版 [[Download]](/book/%E7%AE%97%E6%B3%95%E5%BF%83%E5%BE%97%20-%20%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E7%9A%84%E5%A5%A5%E7%A7%98%20-%20%E4%B8%AD%E6%96%87%E7%AC%AC2%E7%89%88.pdf)
+### C
+
+#### :rocket: Algorithms in a Nutshell
+
+* [**Download**](/src/C/Algorithms-in-a-Nutshell.pdf)
+* size: 11.6 MB
+
+#### :rocket: Algorithms in C
+
+* [**Download**](/src/C/Algorithms-in-C.pdf)
+* size: 30.4 MB
+
+#### :rocket: Data Structures and Algorithms Made Easy - Data Structure and Algorithmic Puzzles
+
+* [**Download**](/src/C/Data-Structures-and-Algorithms-Made-Easy-Data-Structure-and-Algorithmic-Puzzles.pdf)
+* size: 34.3 MB
+
+#### :rocket: Data Structures and Algorithms Made Easy
+
+* [**Download**](/src/C/Data-Structures-and-Algorithms-made-Easy.pdf)
+* size: 1.8 MB
+
+#### :rocket: The Data Compression Book - Second Edition
+
+* [**Download**](/src/C/The-Data-Compression-Book-Second-Edition.pdf)
+* size: 1.7 MB
+
+### C Sharp
+
+#### :rocket: Everyday Data Structures - A practical guide to learning data structures simply and easily
+
+* [**Download**](/src/C#/Everyday-Data-Structures-A-practical-guide-to-learning-data-structures-simply-and-easily.pdf)
+* size: 1.7 MB
+
+### C++
+
+#### :rocket: Data Structures and Algorithm Analysis in c++ (Fourth Edition)
+
+* [**Download**](/src/C++/DataStructuresAndAlgorithmAnalysisInCpp_2014.pdf)
+* size: 4.4 MB
+
+### F Sharp
+
+#### :rocket: Learning F# Functional Data Structures and Algorithms
+
+* [**Download**](/src/F#/Learning-F#-Functional-Data-Structures-and-Algorithms.pdf)
+* size: 3.9 MB
+
+### JAVA
+
+#### :rocket: DATA STRUCTURES & ALGORITHMS in JAVA
+
+* [**Download**](/src/JAVA/Data-Structures-and-Algorithms-in-Java.pdf)
+* size: 10.4 MB
+
+#### :rocket: Java 9 Data Structures and Algorithms
+
+* [**Download**](/src/JAVA/java-9-data-structures-algorithms.pdf)
+* size: 2.5 MB
+
+#### :rocket: Dynamic Programming - A Computational Tool
+
+* [**Download**](/src/JAVA/Dynamic-Programming-A-Computational-Tool.pdf)
+* size: 8.0 MB
+
+### JAVASCRIPT
+
+#### :rocket: A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills
+
+* [**Download**](/src/JAVASCRIPT/A-Common-Sense-Guide-to-Data-Structures-and-Algorithms-Level-Up-Your-Core-Programming-Skills.pdf)
+* size: 6.6 MB
+
+#### :rocket: Data Structures & Algorithms with JavaScript
+
+* [**Download**](/src/JAVASCRIPT/Data-Structures-&-Algorithms-with-JavaScript.pdf)
+* size: 8.7 MB
+
+#### :rocket: Learning JavaScript Data Structures and Algorithms - Second Edition
+
+* [**Download**](/src/JAVASCRIPT/Learning-JavaScript-Data-Structures-and-Algorithms-Second-Edition.pdf)
+* size: 29.4 MB
+
+### PHP
+
+#### :rocket: PHP 7 Data Structures and Algorithms
+
+* [**Download**](/src/PHP/PHP-7-Data-Structures-and-Algorithms.pdf)
+* size: 5.4 MB
+
+### PYTHON
+
+#### :rocket: Data Structures and Algorithms in Python
+
+* [**Download**](/src/PYTHON/Data-Structures-and-Algorithms-in-Python.pdf)
+* size: 6.9 MB
+
+#### :rocket: Data Structures and Algorithms with Python
+
+* [**Download**](/src/PYTHON/Data-Structures-and-Algorithms-with-Python.pdf)
+* size: 13.4 MB
+
+#### :rocket: Python Algorithms - Mastering Basic Algorithms in the Python Language - Second Edition
+
+* [**Download**](/src/PYTHON/Python-Algorithms-Mastering-Basic-Algorithms-in-the-Python-Language-Second-Edition.pdf)
+* size: 5.0 MB
+
+#### :rocket: Grokking Algorithms - An illustrated guide for programmers and other curious people
+
+* [**Download**](/src/PYTHON/Grokking-Algorithms-An-illustrated-guide-for-programmers-and-other-curious-people.pdf)
+* size: 26.0 MB
+
+### MISC
+
+#### :rocket: Algorithms to Live By - Brian Christian
+
+* [**Download**](/src/Algorithms-to-Live-By-Brian-Christian.pdf)
+* size: 3.8 MB
+
+#### :rocket: Algorithms Unlocked - Thomas H. Cormen
+
+* [**Download**](/src/Algorithms-Unlocked-Thomas-H.-Cormen.pdf)
+* size: 4.1 MB
+
+#### :rocket: Disk-Based Algorithms for Big Data
+
+* [**Download**](/src/Disk-Based-Algorithms-for-Big-Data.pdf)
+* size: 19.2 MB
+
+#### :rocket: Essential Algorithms - A Practical Approach to Computer Algorithms
+
+* [**Download**](/src/Essential-Algorithms-A-Practical-Approach-to-Computer-Algorithms.pdf)
+* size: 10.3 MB
+
+#### :rocket: Hacker's Delight - Second Edition
+
+* [**Download**](/src/Hacker%27s-Delight-Second-Edition.pdf)
+* size: 12.8 MB
+
+#### :rocket: Introduction to Algorithms - Third Edition
+
+* [**Download**](/src/Introduction-to-Algorithms-Third-Edition.pdf)
+* size: 5.1 MB
+
+#### :rocket: Mathematics and Physics for Programmers - Second Edition
+
+* [**Download**](/src/Mathematics-and-Physics-for-Programmers-Second-Edition.pdf)
+* size: 8.0 MB
+
+#### :rocket: Sets, Logic and Maths for Computing
+
+* [**Download**](/src/Sets,-Logic-and-Maths-for-Computing.pdf)
+* size: 2.4 MB
+
+#### :rocket: The Algorithm Design Manual - Second Edition
+
+* [**Download**](/src/The-Algorithm-Design-Manual-Second-Edition.pdf)
+* size: 11.5 MB
+
+#### :rocket: The Master Algorithm - Pedro Domingos
+
+* [**Download**](/src/The-Master-Algorithm-Pedro-Domingos.pdf)
+* size: 4.0 MB
 
 ## CONTRIBUTING
 
-* If you want to contribute to this list, send a pull request. All contributors will be recognized and appreciated.
-
-* The contributor(s) cannot be held responsible for any misuse of the data.
+Follow [CONTRIBUTION](CONTRIBUTING.md)
