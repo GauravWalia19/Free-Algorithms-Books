@@ -153,6 +153,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 * [**Download**](/src/Introduction-to-Algorithms-Third-Edition.pdf)
 * size: 5.1 MB
 
+#### :rocket: Introduction to Algorithms
+
+* [**Download**](/src/Introduction-to-Algorithms.pdf)
+* size: 14.5 MB
+
 #### :rocket: Mathematics and Physics for Programmers - Second Edition
 
 * [**Download**](/src/Mathematics-and-Physics-for-Programmers-Second-Edition.pdf)
