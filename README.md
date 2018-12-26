@@ -12,6 +12,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 ### C
 
+#### :rocket: Algorithm Notes for Professionals
+
+* [**Download**](/src/C/AlgorithmsNotesForProfessionals.pdf)
+* size: 2.8 MB
+
 #### :rocket: Algorithms in a Nutshell
 
 * [**Download**](/src/C/Algorithms-in-a-Nutshell.pdf)
