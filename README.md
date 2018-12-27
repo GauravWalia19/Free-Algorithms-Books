@@ -138,6 +138,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 ### MISC
 
+#### :rocket: Algorithms and Data Structures by N. Wirth
+
+* [**Download**](/src/AD.pdf)
+* size: 2.4 MB
+
 #### :rocket: Data Structures and Algorithms: Annotated Reference with Examples First Edition
 
 * [**Download**](/src/Dsa.pdf)
