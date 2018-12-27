@@ -138,6 +138,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 ### MISC
 
+#### :rocket: Data Structures and Algorithms: Annotated Reference with Examples First Edition
+
+* [**Download**](/src/Dsa.pdf)
+* size: 1.1 MB
+
 #### :rocket: Algorithms to Live By - Brian Christian
 
 * [**Download**](/src/Algorithms-to-Live-By-Brian-Christian.pdf)
