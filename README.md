@@ -49,10 +49,15 @@ You can find all the books listed below in **src** and its sub folders of this r
 
 #### :rocket: Data Structures using C
 
-* [Download](/src/C/Data-Structures-Using-C-2nd-edition.pdf)
+* [**Download**](/src/C/Data-Structures-Using-C-2nd-edition.pdf)
 * size: 19.2 MB
 
 ### C Sharp
+
+#### :rocket: Notes on Data Structures and Programming Techniques
+
+* [**Download**](/src/C/notes.pdf)
+* size: 2.4 MB
 
 #### :rocket: Everyday Data Structures - A practical guide to learning data structures simply and easily
 
