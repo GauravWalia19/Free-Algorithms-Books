@@ -71,6 +71,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 * [**Download**](/src/C++/DataStructuresAndAlgorithmAnalysisInCpp_2014.pdf)
 * size: 4.4 MB
 
+#### :rocket: THINK LIKE A PROGRAMMER
+
+* [**Download**](/src/C++/d_book_proqramlashdirma_23560.pdf)
+* size: 7.5 MB
+
 ### F Sharp
 
 #### :rocket: Learning F# Functional Data Structures and Algorithms
