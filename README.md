@@ -100,6 +100,11 @@ You can find all the books listed below in **src** and its sub folders of this r
 * [**Download**](/src/JAVA/Dynamic-Programming-A-Computational-Tool.pdf)
 * size: 8.0 MB
 
+#### :rocket: A Practical Introduction to Data Structures and Algorithm Analysis Third Edition
+
+* [**Download**](/src/JAVA/book.pdf)
+* size: 2.2 MB
+
 ### JAVASCRIPT
 
 #### :rocket: A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills
