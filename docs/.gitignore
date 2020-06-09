@@ -1,0 +1,4 @@
+# Ignore files for mern boilerplate
+
+.env
+node_modules

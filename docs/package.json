@@ -1,0 +1,30 @@
+{
+  "name": "mernboilerplate",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.x",
+    "yarn": "1.x"
+  },
+  "description": "This is a boilerplate repo for creating new mern stack apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "mern": "concurrently -n 'server,client' -c 'yellow,blue' \"yarn run dev\" \"yarn run client\"",
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
+  },
+  "author": "Gaurav Walia",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
