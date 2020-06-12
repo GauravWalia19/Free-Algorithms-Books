@@ -1,0 +1,53 @@
+/* SECOND PAGE */
+#secondPage{
+    background-color: var(--downloadColor);
+    min-height: 100vh;
+    padding-top: 130px;
+}
+.secondPageContent{
+    padding: 20px;
+}
+.languageList{
+    padding: 20px;
+    list-style-type: none;
+}
+.languageList > li{
+    margin: 20px;
+}
+.language{
+    color: black;
+    text-decoration: none;
+}
+.booksImage{
+    width: 100%;
+    border-radius: 10px;
+}
+.fa-link{
+    color: var(--linkColor);
+}
+@media screen and (min-width: 810px){
+    #secondPage{
+        padding-top: 60px;
+    }
+    .secondPageContent{
+        padding: 25px;
+        padding-bottom: 0;
+    }
+}
+@media screen and (min-width: 1001px){
+    .secondPageContent{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .booksImage{
+        float: right;
+        width: 66%;
+        margin-top: -20%;
+        margin-right: 5%;
+    }
+}
+@media screen and (min-width: 1300px){
+    #secondPage{
+        padding-top: 100px;
+    }
+}

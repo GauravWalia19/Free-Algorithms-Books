@@ -1,0 +1,64 @@
+.firstPage{
+    min-height: 100vh;
+    background-color: var(--background2);
+}
+.steveImage{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.section{
+    padding-top: 35%;
+    color: white;
+}
+.sectionQuote{
+    padding: 50px;
+}
+.sectionQuote>p{
+    float: right;
+}
+
+@media (min-width: 426px) and (max-width: 570px){
+    .section{
+        padding-top: 30%;
+    }
+}
+@media (min-width: 571px) and (max-width: 635px){
+    .section{
+        padding-top: 20%;
+    }
+}
+@media (min-width: 636px) and (max-width: 809px){
+    .section{
+        padding-top: 14%;
+    }
+    .steveImage{
+        width: 85%;
+    }
+}
+@media screen and (min-width: 810px){
+    .section{
+        padding-top: 10%;
+    }
+    .steveImage{
+        width: 65%;
+    }
+}
+@media screen and (min-width: 1000px){
+    .section{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .steveImage{
+        width: 50%;
+    }
+    .sectionQuote{
+        padding-left: 45%;
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 1300px){
+    .sectionQuote{
+        padding-left: 50%;
+    }
+}

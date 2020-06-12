@@ -1,0 +1,41 @@
+.outerHeader{
+    color: var(--linkColor);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    background-color: var(--background1);
+    font-weight: bold;
+}
+#imageLogo{
+    width: 100%;
+    height: 70px;
+}
+.navLinkList{
+    list-style-type: none;
+}
+.navLinks{
+    display: inline-block;
+    padding: 20px;
+}
+.navLinks>a{
+    color: var(--linkColor);
+    text-decoration: none;
+}
+@media screen and (min-width: 810px){
+    .header{
+        text-align: left;
+    }
+    #imageLogo{
+        width: initial;
+    }
+    .navLinkList{
+        float: right;
+    }
+}
+@media screen and (min-width: 1000px){
+    .header{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
