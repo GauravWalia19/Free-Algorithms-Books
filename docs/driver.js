@@ -1,13 +1,17 @@
 const Book = require('./models/Book');
-// const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 let fs = require('fs');
 require('dotenv').config();
 
-// mongoose.connect(process.env.MONGO_DB, {useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+});
 
-// const db = mongoose.connection;
+const db = mongoose.connection;
 
-// db.on('error',console.error.bind(console, 'Connection error:'));
+db.on('error',console.error.bind(console, 'Connection error:'));
 
 const SEED_FILE = '../Library/Library.md';
 fs.readFile(SEED_FILE, (err,buf)=>{
@@ -22,11 +26,14 @@ fs.readFile(SEED_FILE, (err,buf)=>{
             fileNames.push(filename[2])
         }
     }
-    addToMongo(fileNames);
+    extractDataFromMarkdown(fileNames);
 })
 
 // traversing fileNames and extract data
-const addToMongo = (fileNames)=>{
+const extractDataFromMarkdown = (fileNames)=>{
+    const DOWNLOAD_URL = "https://github.com/GauravWalia19/Free-Algorithms-Books/raw/master/Library/";
+    const VIEW_URL     = "https://github.com/GauravWalia19/Free-Algorithms-Books/blob/master/Library/";
+
     for(let i=0;i<fileNames.length;i++){
         let objectDatabase = [];
         let readFileName = '../Library/'+fileNames[i];       // reading files path
@@ -49,19 +56,36 @@ const addToMongo = (fileNames)=>{
                     }
                     object={
                         name: arr[j].split('## :rocket: ')[1],
-                        url: "",
+                        view: "",
                         size: "",
                         language
                     }
                 }else if(arr[j].search("Download") != -1){
-                    object.url=arr[j].split(/([()])/)[2]
+                    let url = arr[j].split(/([()])/)[2]; 
+                    object.download = url.replace('./', DOWNLOAD_URL);
+                    object.view = url.replace('./', VIEW_URL); 
                 }else if(arr[j].search("size:") != -1){
                     object.size=arr[j].split("* size: ")[1]
                 }
             }
             objectDatabase.push(object);        // pushing last created object
-            console.log(objectDatabase);
+            addDataToMongo(objectDatabase);
         })
-        break;
+    }
+}
+
+const addDataToMongo = (objectDatabase)=>{
+    for(let i=0;i<objectDatabase.length;i++){
+        let book = new Book(
+            objectDatabase[i]
+        );
+        book.save((err, book)=>{
+            if(err)
+            {
+                console.log(err.message);
+            }else{
+                console.log("Book Added: " + objectDatabase[i].name);
+            }
+        });
     }
 }

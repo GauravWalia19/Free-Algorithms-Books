@@ -8,7 +8,11 @@ const Book = new Schema({
         required: true,
         unique: true
     },
-    url: {
+    view: {
+        type: String,
+        required: true
+    },
+    download: {
         type: String,
         required: true
     },
