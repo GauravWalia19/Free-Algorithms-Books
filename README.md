@@ -9,7 +9,7 @@ git clone https://github.com/GauravWalia19/Free-Algorithms-Books.git
 ## Books Library
 
 You can find all the books listed below in **src** and its sub folders of this repo.
-See our books library [here](Library.md)
+See our books library [here](Library/Library.md)
 
 ## CONTRIBUTING
 
