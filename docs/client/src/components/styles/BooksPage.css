@@ -22,26 +22,25 @@
     border-radius: 15px;
     font-size: 18px;
     outline-color: white;
-    width: 60%;
+    width: 50%;
 }
 #booksSearchDiv{
     float: right;
     padding: 5px;
     text-align: right;
+    width: 70%;
+    margin-top: 5px;
 }
 .footerLine{
-    clear: both;
-    position: absolute;
-    bottom: 0;
     padding: 10px;
 }
 
 @media screen and (max-width: 396px){
     #booksSearchDiv{
-        width: 80%;
+        width: 75%;
     }
     .searchInput{
-        width: 50%;
+        width: 35%;
     }
 }
 @media screen and (min-width: 1001px){
@@ -53,6 +52,6 @@
         width: 45%;
     }
     .searchInput{
-        width: 70%;
+        width: 68%;
     }
 }

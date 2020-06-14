@@ -1,19 +1,21 @@
 import React from 'react';
 import '../styles/ThirdPage.css';
 import Footer from '../common/Footer';
-import NewBookForm from '../NewBookForm';
-import BugReportForm from '../BugReportForm';
+import NewBookForm from '../others/NewBookForm';
+import BugReportForm from '../others/BugReportForm';
 
 const ThirdPage = () => {
     return (
-        <div id="thirdPage">
-            <h2>Community</h2>
-            <hr/>
-            <BugReportForm />
-            <hr id="mobileLine"/>
-            <NewBookForm />
+        <React.Fragment>
+            <div id="thirdPage">
+                <h2>Community</h2>
+                <hr/>
+                <BugReportForm />
+                <hr id="mobileLine"/>
+                <NewBookForm />
+            </div>
             <Footer />
-        </div>
+        </React.Fragment>
     )
 }
 

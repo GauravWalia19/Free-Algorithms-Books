@@ -28,7 +28,29 @@ const NewBookForm = () => {
 
     const handleNewBookSubmit = (e) => {
         e.preventDefault();
-        console.log(newBook);
+        fetch('/api/v1/book/add', {
+            method: 'POST',
+            body: JSON.stringify(newBook),
+            headers: { 
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        })
+        .then(res => res.json())
+        .then(res => {
+            if(res.status === 200){
+                alert(res.message);
+                setNewBook({
+                    title: "",
+                    bookName: "",
+                    language: "",
+                    downloadLink: "",
+                    username: ""
+                })
+            }else{
+                alert('Something is not correct!!!\nEnter valid username');
+            }
+        })
+        .catch(err => console.log(err));
     }
 
     return (

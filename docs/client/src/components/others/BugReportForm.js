@@ -21,7 +21,42 @@ const BugReportForm = () => {
 
     const handleBugFormSubmit = (e)=>{
         e.preventDefault();
-        console.log(bugForm);
+        fetch('/api/v1/bugs/report', {
+            method: 'POST',
+            body: JSON.stringify(bugForm),
+            headers: { 
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        })
+        .then(res => res.json())
+        .then(res => {
+            if(res.status === 200){
+                alert(res.message);
+                setBugForm({
+                    title: "",
+                    description: "",
+                    expectedBehaviour: "",
+                    device: "",
+                    os: "",
+                    browser: "",
+                    version: "",
+                    username: ""
+                })
+            }else{
+                alert('Something is not correct!!!\nEnter valid username');
+            }
+        })
+        .catch(err => console.log(err));
+    }
+
+    const getOptions = (arr)=>{
+        return (
+            arr.map(opt => {
+                return(
+                    <option key={opt}>{opt}</option>
+                )
+            })
+        )
     }
 
     return (
@@ -80,39 +115,39 @@ const BugReportForm = () => {
                     <h3>Desktop / Smartphone</h3>
                     <div className="inputDiv">
                         Device<br/>
-                        <input 
-                            type="text" 
-                            name="device"
-                            autoComplete="off"
+                        <select 
+                            name="device" 
                             value={bugForm.device}
-                            onChange={handleChange}
                             className="formInput"
+                            onChange={handleChange} 
                             required
-                        />
+                        >
+                            {getOptions(['','Laptop','IPAD','Smartphone'])}
+                        </select>
                     </div>
                     <div className="inputDiv">
                         OS<br/>
-                        <input 
-                            type="text" 
-                            name="os"
-                            autoComplete="off"
+                        <select 
+                            name="os" 
                             value={bugForm.os}
-                            onChange={handleChange}
                             className="formInput"
+                            onChange={handleChange} 
                             required
-                        />
+                        >
+                            {getOptions(['','Windows','Android','Linux','Unix'])}
+                        </select>
                     </div>
                     <div className="inputDiv">
                         Browser<br/>
-                        <input 
-                            type="text" 
-                            name="browser"
-                            autoComplete="off"
+                        <select 
+                            name="browser" 
                             value={bugForm.browser}
                             className="formInput"
-                            onChange={handleChange}
+                            onChange={handleChange} 
                             required
-                        />
+                        >
+                            {getOptions(['','Google Chrome','Safari','Mozilla Firefox','Opera'])}
+                        </select>
                     </div>
                     <div className="inputDiv">
                         Version<br/>

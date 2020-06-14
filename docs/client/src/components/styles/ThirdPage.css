@@ -48,9 +48,24 @@
 
 @media screen and (min-width: 600px){
     .communityForm{
-        width: initial;
+        width: 40%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 4%;
+        padding-left: 4%;
     }
     #mobileLine{
         display: none;
+    }
+}
+@media screen and (min-width: 810px){
+    #thirdPage{
+        padding-top: 70px;
+    }
+}
+@media screen and (min-width: 1001px){
+    #thirdPage{
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

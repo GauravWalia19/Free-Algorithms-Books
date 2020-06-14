@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <div className="firstPage">
-                <Header />
+                <Header/>
                 <div className="section">
                     <div className="sectionQuote">
                         <h1>“Algorithms are not arbiters of objective truth and fairness simply because they're math.”</h1>

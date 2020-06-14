@@ -10,24 +10,30 @@ const BooksPage = (props) => {
 
     const handleSearchChange = (e) => {
         setSearch(e.target.value);
+        fetch(`/api/v1/search?language=${props.match.params.language}&name=${e.target.value}`)
+        .then(res => res.json())
+        .then((data)=>{
+            if(Array.isArray(data)){
+                setBooks(data);
+            }
+        })
+        .catch(err => console.log(err))
     }
 
     useEffect(() => {
-        // call books api
-        let object = {
-            id: '5ee363e73d616c0dcb05d829',
-            name: 'Algorithm Notes for Professionals',
-            view: 'https://github.com/GauravWalia19/Free-Algorithms-Books/blob/master/Library/src/C/AlgorithmsNotesForProfessionals.pdf',
-            size: '2.8 MB',
-            language: 'C',
-            download: 'https://github.com/GauravWalia19/Free-Algorithms-Books/raw/master/Library/src/C/AlgorithmsNotesForProfessionals.pdf'
-        }
-        setBooks([...books, object]);
-    }, [])
+        fetch(`/api/v1/get?language=${props.match.params.language}`)
+        .then(res => res.json())
+        .then((data)=>{
+            if(Array.isArray(data)){
+                setBooks(data);
+            }
+        })
+        .catch(err => console.log(err))
+    }, [props.match.params.language])
 
     return (
         <React.Fragment>
-            <Header />
+            <Header/>
             <div className="booksPageDiv">
                 <div className="searchHeader">
                     <div id="booksSearchDiv">
