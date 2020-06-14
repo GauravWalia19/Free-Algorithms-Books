@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 // middleware for handling sample api routes
-app.use('/api/v1', require('./routes/api/crud'));
+app.use('/api/v1', require('./routes/api/route'));
 
 // create static assets from react code for production only
 if (process.env.NODE_ENV === 'production') {
