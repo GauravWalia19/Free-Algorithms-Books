@@ -5,8 +5,9 @@ const Header = () => {
     return (
         <div className="outerHeader">
             <div className="header">
-                <a href="/">
-                    <img src="./logo.png" alt="FreeAlgorithms Books logo" id="imageLogo"/>
+                <a href="/" className="homeLink">
+                    <i className="fas fa-book"></i>
+                    <span>Free Algorithm Books</span>
                 </a>
                 <ul className="navLinkList">
                     <li className="navLinks"><a href="/#secondPage">Library</a></li>
