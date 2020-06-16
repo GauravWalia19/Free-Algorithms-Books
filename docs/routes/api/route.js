@@ -149,11 +149,13 @@ const createIssue = (title, issueBody, labels, res)=>{
         body: issueBody,
         labels
     })
-    .then(res => {
-        console.log(res);
-        res.json({message: 'Issue created Successfully',status: 200})
+    .then(_res => {
+        return res.json({message: 'Issue created Successfully',status: 200})
     })
-    .catch(err => res.status(400).json({message: 'Bad Request'}))
+    .catch(err => {
+        console.log(err);
+        return res.status(400).json({message: 'Bad Request'})
+    })
 }
 
 /**
