@@ -32,6 +32,25 @@
     color: var(--linkColor);
     text-decoration: none;
 }
+
+.forkOption{
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    left: -30px;
+    top: 60px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 30px;
+    font-size: 12px;
+    position: fixed;
+    z-index: 2;
+}
+.forkOption > a{
+    color: black;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 426px){
     .homeLink{
         font-size: 2.1em;
@@ -47,10 +66,35 @@
     .navLinkList{
         float: right;
     }
+    .forkOption{
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        background-color: var(--inputColor);
+        position: relative;
+        float: right;
+        margin-top: -15px;
+    }
 }
 @media screen and (min-width: 1000px){
     .header{
         margin-right: 5%;
         margin-left: 5%;
+    }
+    .forkOption{
+        transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -webkit-transform:rotate(-45deg);
+        left: -30px;
+        top: 35px;
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 30px;
+        position: fixed;
+        z-index: 2;
+        /* background: none; */
     }
 }
