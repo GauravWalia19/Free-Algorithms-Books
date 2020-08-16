@@ -64,3 +64,8 @@
 
 * [**Download**](./src/The-Master-Algorithm-Pedro-Domingos.pdf)
 * size: 4.0 MB
+
+## :rocket: Algorithm Design Eva Tardos
+
+* [**Download**](./src/Algorithm-Design-Eva-Tardos.pdf)
+* size: 5.2 MB
