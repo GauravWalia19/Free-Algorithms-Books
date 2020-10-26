@@ -13,21 +13,26 @@ const db = mongoose.connection;
 
 db.on('error',console.error.bind(console, 'Connection error:'));
 
-const SEED_FILE = 'Library/Library.md';
-fs.readFile(SEED_FILE, (err,buf)=>{
-    if(err){
-        console.log(err);
-    }
-    let arr = buf.toString().split('\n');
-    let fileNames = [];
-    for(let i=0;i<arr.length;i++){
-        if(arr[i].search('.md')!=-1){           // search for markdown files
-            let filename = arr[i].split(/([()])/);
-            fileNames.push(filename[2])
+// initial entry point for the driver
+const init = () => {
+    const SEED_FILE = 'Library/Library.md';
+    fs.readFile(SEED_FILE, (err,buf)=>{
+        if(err){
+            console.log(err);
         }
-    }
-    extractDataFromMarkdown(fileNames);
-})
+        let arr = buf.toString().split('\n');
+        let fileNames = [];
+        for(let i=0;i<arr.length;i++){
+            if(arr[i].search('.md')!=-1){           // search for markdown files
+                let filename = arr[i].split(/([()])/);
+                fileNames.push(filename[2])
+            }
+        }
+        extractDataFromMarkdown(fileNames);
+    })
+}
+
+init();
 
 // traversing fileNames and extract data
 const extractDataFromMarkdown = (fileNames)=>{
@@ -74,6 +79,7 @@ const extractDataFromMarkdown = (fileNames)=>{
     }
 }
 
+// this function will add the extracted data in mongo
 const addDataToMongo = (objectDatabase)=>{
     for(let i=0;i<objectDatabase.length;i++){
         let book = new Book(
