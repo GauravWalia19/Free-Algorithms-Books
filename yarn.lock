@@ -62,10 +62,10 @@ memory-pager@^1.0.2:
   resolved "https://registry.yarnpkg.com/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
   integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
 
-mongodb@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.2.tgz#1154a4ac107bf1375112d83a29c5cf97704e96b6"
-  integrity sha512-sSZOb04w3HcnrrXC82NEh/YGCmBuRgR+C1hZgmmv4L6dBz4BkRse6Y8/q/neXer9i95fKUBbFi4KgeceXmbsOA==
+mongodb@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.3.tgz#eddaed0cc3598474d7a15f0f2a5b04848489fd05"
+  integrity sha512-rOZuR0QkodZiM+UbQE5kDsJykBqWi0CL4Ec2i1nrGrUI3KO11r6Fbxskqmq3JK2NH7aW4dcccBuUujAP0ERl5w==
   dependencies:
     bl "^2.2.1"
     bson "^1.1.4"
@@ -81,13 +81,13 @@ mongoose-legacy-pluralize@1.0.2:
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
 
 mongoose@^5.10.10:
-  version "5.10.10"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.10.10.tgz#895e2c8dfbacbddc59d05b3310993aa6255c872c"
-  integrity sha512-KjCbWXTJ36RHMe0g31UG0/sANpJ9ekCIena7FkrCFlq5E9gJj/B2SgE5XQzIEiR1h4xMOVGKzyenCnyTw9UHZQ==
+  version "5.10.17"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.10.17.tgz#8754cdaf0dc7964d512ed1889546528fb42e9eb8"
+  integrity sha512-B7kcEaXbgdTQiloKfr9qQMdo5WOrTKEqIoWY9RWiMMAvbn+8n/vBjBKIH9wc/U+8Y4SIvfRf6kenfWbjLVe2YA==
   dependencies:
     bson "^1.1.4"
     kareem "2.3.1"
-    mongodb "3.6.2"
+    mongodb "3.6.3"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.7.0"
     mquery "3.2.2"
