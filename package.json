@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "Free Algorithm Books driver project",
   "main": "driver.js",
-  "scripts":{
+  "scripts": {
     "syncDriver": "node driver.js"
   },
   "repository": "https://github.com/GauravWalia19/Free-Algorithms-Books.git",
   "author": "Gaurav Walia <gauravwalia019@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^10.0.0"
   },
   "dependencies": {
-    "mongoose": "^5.10.10"
+    "mongoose": "^5.13.5"
   }
 }
