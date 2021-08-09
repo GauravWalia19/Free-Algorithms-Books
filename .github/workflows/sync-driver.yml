@@ -1,7 +1,7 @@
 name: sync-driver
 on:
   schedule:
-    - cron: '0 0 12 ? * SAT'
+    - cron: '0 12 * * SAT'
 jobs:
   sync-md:
     runs-on: ubuntu-latest
