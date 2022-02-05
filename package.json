@@ -10,7 +10,7 @@
   "author": "Gaurav Walia <gauravwalia019@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^16.0.0"
   },
   "dependencies": {
     "mongoose": "^5.13.6"
