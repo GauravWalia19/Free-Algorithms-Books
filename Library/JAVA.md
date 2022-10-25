@@ -19,3 +19,8 @@
 
 * [**Download**](./src/JAVA/book.pdf)
 * size: 2.2 MB
+
+## :rocket: Data Structures & Algorithms in Java (2nd Edidion)
+
+* [**Download**](./src/JAVA/schoolboek-data_structures_and_algorithms_in_java.pdf)
+* size: 4.07 MB
