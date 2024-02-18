@@ -1,16 +1,16 @@
 name: sync-driver
 on:
-  schedule:
-    - cron: '0 12 * * SAT'
+    schedule:
+        - cron: '0 12 * * SAT'
 jobs:
-  sync-md:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14.x'
-      - run: yarn install
-      - run: yarn run syncDriver
-    env:
-      MONGODB_URI: ${{ secrets.MONGODB_URI }}
+    sync-md:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 'latest'
+            - run: yarn install
+            - run: yarn run syncDriver
+        env:
+            MONGODB_URI: ${{ secrets.MONGODB_URI }}
