@@ -11,6 +11,8 @@ jobs:
               with:
                   node-version: 'latest'
             - run: yarn install
-            - run: yarn run syncDriver
+            - run: yarn run syncDriver:github
         env:
             MONGODB_URI: ${{ secrets.MONGODB_URI }}
+            DOWNLOAD_URL: ${{ secrets.DOWNLOAD_URL }}
+            VIEW_URL: ${{secrets.VIEW_URL}}
