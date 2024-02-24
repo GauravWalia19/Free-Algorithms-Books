@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const fs = require('fs').promises;
 
 const connectMongoDB = async () => {
-    require('dotenv').config(); // for running locally
     await mongoose.connect(process.env.MONGODB_URI).catch(async (err) => {
         console.log('Error while mongoose connection: ', err);
         await disconnectMongoDB(1);
@@ -41,10 +40,8 @@ init();
 
 // traversing fileNames and extract data
 const extractDataFromMarkdown = async (fileNames) => {
-    const DOWNLOAD_URL =
-        'https://github.com/GauravWalia19/Free-Algorithms-Books/raw/master/Library/';
-    const VIEW_URL =
-        'https://github.com/GauravWalia19/Free-Algorithms-Books/blob/master/Library/';
+    const DOWNLOAD_URL = process.env.DOWNLOAD_URL;
+    const VIEW_URL = process.env.VIEW_URL;
     let objectDatabase = [];
 
     for (let i = 0; i < fileNames.length; i++) {
